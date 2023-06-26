@@ -1,0 +1,180 @@
+/* General - Mobile first */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+}
+
+:root {
+    --header-location-bg: #eaeaea;
+    --footer-bg: #353535;
+    --main-bg: #f6f6f6;
+    --button-gradient: #9356DC, #FF79DA ;
+}
+
+.fa-arrow-left {
+    visibility: hidden;
+}
+
+/* EN-TÊTE (LOGO) */
+
+.header {
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo {
+    margin: auto;
+    height: 3%;
+    display: flex;
+}
+
+/* LOCALISATION */
+
+.main_container {
+    background-color: var(--main-bg);
+    width: 100%;
+    min-width: 375px;
+    max-height: 915px;
+    height: 2252px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+
+.fa-location-dot {
+    margin-right: 1rem;
+    color: #353535;
+}
+    
+.location {
+    background-color: var(--header-location-bg);
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    box-shadow: 0px 4px 10px 0px rgba(1, 0.5, 0.5, 0.5);
+}
+
+.location_txt {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: #353535;
+    margin-right: 11px;
+    text-align: center;
+}
+
+/* MENUS */
+
+.section_menus {
+    padding: 0% 5%;  
+    text-align: center;  
+    flex-flow: wrap column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.menus_1st_title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menus_2nd_title {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.gradient_button {
+    width: 218px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 20px 55px 20px;
+    border: none;
+    background: linear-gradient(175deg,#FF79DA 10%, #9356DC 90%);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.gradient_button_txt {
+    color: white;
+    height: 24px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* BOUTONS FONCTIONNEMENT */
+
+ul {
+    list-style: none;
+}
+
+.buttons_section {  
+    background: white;  
+    height: 440px;
+}
+
+.buttons_section_title {
+    font-size: 24px;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-top: 30px;
+   
+}
+
+.buttons {
+    padding: 0px 0px 0px 40px;
+}
+
+.btn {
+    width: 305px;
+    height: 65px;
+    border-radius: 20px;
+    border: none;
+    background: var(--background, #F6F6F6);
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
+    font-weight: 500;   
+}
+
+.fa-mobile-screen-button {
+    color: #7e7e7e;
+    text-indent: -39px;
+}
+
+.fa-list-ul {
+    color: #7e7e7e;
+    text-indent: -39px;
+}
+
+.fa-store {
+    color: #9356DC;
+    text-indent: -39px;
+}
+
+.ellipse {
+    border-radius: 24px;
+    background: #9356DC;
+    width: 24px;
+    height: 24px;
+    color: white;
+    position: relative;
+    right: 12px;
+    bottom: -45px;
+}
+
+.ellipse p {
+    position: relative;
+    padding: 4px 0px 0px 8px;
+    font-size: 14px;
+    font-weight: 500;
+}
